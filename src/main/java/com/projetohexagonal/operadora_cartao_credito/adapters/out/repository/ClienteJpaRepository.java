@@ -1,6 +1,7 @@
 package com.projetohexagonal.operadora_cartao_credito.adapters.out.repository;
 
-import com.javanauta.operadoracartao.infrastructure.entities.ClienteEntity;
+
+import com.projetohexagonal.operadora_cartao_credito.adapters.out.entities.ClienteEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;
