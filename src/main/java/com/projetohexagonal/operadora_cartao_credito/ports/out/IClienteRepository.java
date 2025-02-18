@@ -1,11 +1,10 @@
 package com.projetohexagonal.operadora_cartao_credito.ports.out;
 
-import com.fasterxml.jackson.annotation.OptBoolean;
 import com.projetohexagonal.operadora_cartao_credito.application.domain.ClienteDomain;
 
 import java.util.Optional;
 
-public interface ClienteRepository {
+public interface IClienteRepository {
 
     ClienteDomain salvar(ClienteDomain clienteDomain);
 

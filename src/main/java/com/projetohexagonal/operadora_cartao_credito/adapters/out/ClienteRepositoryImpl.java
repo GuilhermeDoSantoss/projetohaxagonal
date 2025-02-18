@@ -3,7 +3,7 @@ package com.projetohexagonal.operadora_cartao_credito.adapters.out;
 import com.projetohexagonal.operadora_cartao_credito.adapters.mapper.ClienteMapper;
 import com.projetohexagonal.operadora_cartao_credito.adapters.out.repository.ClienteJpaRepository;
 import com.projetohexagonal.operadora_cartao_credito.application.domain.ClienteDomain;
-import com.projetohexagonal.operadora_cartao_credito.ports.out.ClienteRepository;
+import com.projetohexagonal.operadora_cartao_credito.ports.out.IClienteRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Component;
 
@@ -12,7 +12,7 @@ import java.util.Optional;
 @Component
 @RequiredArgsConstructor
 
-public class ClienteRepositoryImpl implements ClienteRepository {
+public class ClienteRepositoryImpl implements IClienteRepository {
 
     private final ClienteJpaRepository clienteJpaRepository;
     private final ClienteMapper clienteMapper;
